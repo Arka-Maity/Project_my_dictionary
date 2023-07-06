@@ -1,0 +1,96 @@
+.heading {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    color: black;
+  }
+  .searches {
+    display: flex;
+    justify-content: center;
+  }
+  #search {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+  }
+  #search:hover {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+  #search-btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(71, 66, 66);
+    color: white;
+  }
+  #search-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  #searchHistory-btn:hover {
+    background-color: white;
+    transition: ease-in;
+    color: black;
+  }
+  #searchHistory-btn {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(71, 66, 66);
+    color: white;
+  }
+  body {
+    background-image: url("./dictionary\ pic.jpg");
+    /* / background-color: coral; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: aliceblue;
+  }
+  .resultcard {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    margin: 50px 400px;
+  }
+  #deletebutton {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #deletebutton:hover {
+    background-color: gray;
+    color: white;
+  }
+  .head {
+    text-align: center;
+    color: beige;
+  }
+  @media (max-width: 1200px) {
+    .resultcard {
+      background-color: white;
+      margin: 10px 50px;
+    }
+  }
+  @media (max-width: 500px) {
+    .searches {
+      display: inline;
+    }
+    .resultcard {
+      margin: 5px;
+      text-align: center;
+      padding: 5px;
+    }
+    audio {
+      max-width: 100px;
+    }
+    body {
+      background-color: coral;
+      background-image: none;
+    }
+  }

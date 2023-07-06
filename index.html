@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dictionary</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">MY DICTIONARY</h1>
+      <div class="searches">
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Search here"
+          autocomplete="off"
+        />
+        <button type="submit" id="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+
+        <button
+          id="searchHistory-btn"
+          onclick="window.location.href='./SearchHistory.html'"
+          ;
+        >
+          Search History
+        </button>
+      </div>
+      <div class="body">
+        <div class="card" id="cards"></div>
+      </div>
+    </div>
+    <script src="./App.js"></script>
+  </body>
+</html>
